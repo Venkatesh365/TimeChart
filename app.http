@@ -1,0 +1,24 @@
+GET http://localhost:4000/users/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVzd2FydmkiLCJpYXQiOjE2Nzg2MzcyNDR9.NDKibX_MIhiYTROtnI39KRJzxBXjjmwBdet-deWrEmY
+####
+
+POST http://localhost:4000/register
+Content-Type: application/json
+
+{
+    "email": "esw22333eee34444444444444444444444333333333333333333333333333333333333333sd2222222222225x666666666fcg33",
+    "password": "2322",
+    "firstName": "fir33s3tName",
+    "lastName" : "las3tName"
+}
+
+#### 
+
+POST http://localhost:4000/login
+Content-Type: application/json
+
+{
+    "email": "esw22333eee34444444444444444444444333333333333333333333333333333333333333sd2222222222225x666666666fcg33",
+    "password": "2322"
+
+}
